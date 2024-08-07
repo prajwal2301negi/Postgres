@@ -1,0 +1,1 @@
+select * FROM employees LIMIT 3;

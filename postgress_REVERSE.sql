@@ -1,0 +1,2 @@
+
+SELECT REVERSE('HELLO');

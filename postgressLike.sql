@@ -1,0 +1,1 @@
+select * FROM employees WHERE fname LIKE 'A%';

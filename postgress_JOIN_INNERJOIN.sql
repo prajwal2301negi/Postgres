@@ -1,0 +1,3 @@
+SELECT customers.cust_name, COUNT(orders.ord_id) FROM customers INNER JOIN orders on customers.cust_id=orders.cust_id
+	GROUP BY cust_name; 
+--  Customers with no of order placed will be displayed...

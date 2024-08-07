@@ -1,0 +1,9 @@
+SELECT * FROM person;
+
+ALTER TABLE person
+ADD COLUMN 
+    mob VARCHAR(15)
+        CHECK (LENGTH(mob)>=10);
+
+INSERT INTO person(mob)
+VALUES (123456789)

@@ -1,0 +1,3 @@
+SELECT customers.cust_name, SUM(orders.price) FROM customers INNER JOIN orders on customers.cust_id=orders.cust_id
+	GROUP BY cust_name; 
+--  Customers with total price of order placed will be displayed...
